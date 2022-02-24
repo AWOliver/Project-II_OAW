@@ -11,9 +11,18 @@
   align-items: center;
 }
 
-.game {
+.start {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
   width: 80vw;
   height: 70vh;
   border: black solid 5px;
   border-radius: 7px;
+  margin: 10vw 10vw;
+}
+
+.start-info {
+  margin: 5vw 5vw;
 }
