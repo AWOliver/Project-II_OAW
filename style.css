@@ -1,9 +1,11 @@
 * {
   text-decoration: none;
   /*font-family: ;*/
-  font-size: 22px;
+  font-size: 20px;
   color: black;
   margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .header {
@@ -32,6 +34,7 @@
   height: 5px;
   width: 30vw;
   background-color: firebrick;
+  justify-self: flex-end;
 } 
 
 .info {
@@ -43,10 +46,8 @@
   height: 50vh;
   border: black solid 5px;
   border-radius: 7px;
-  margin-left: 70vw;
-}
-
-.info-cont {
-  margin: 2vw 2vw;
-  font-size: 15px;
+  margin-top: 10vh;
+  margin-left: 65vw;
+  padding: 3vh 3vw;
+  gap: 10px;
 }
