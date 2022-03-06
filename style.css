@@ -2,7 +2,6 @@
   text-decoration: none;
   /*font-family: ;*/
   font-size: 20px;
-  color: black;
   margin: 0;
   padding: 0;
   border: 0;
@@ -18,6 +17,8 @@
 }
 
 .header-text{
+  /*trasig, kan ikke knöge textun*/
+  color: #000;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -33,37 +34,42 @@
 .border {
   height: 5px;
   width: 30vw;
-  background-color: firebrick;
+  background-color: black;
   justify-self: flex-end;
 } 
 
 .intro {
+  height: 50vh;
   display: flex;
   flex-direction: row;
+  background-color: firebrick;
+  align-items: center;
+  border-bottom: #000 solid 2px;
 }
 
 .start-img {
-  margin-top: 10vh;
-  margin-left: 15vw;
+  margin-left: 20vw;
   height: 40vh;
   width: 40vw;
-  border: solid 7px firebrick;
-  border-radius: 7px;
+  border: solid 3px goldenrod;
+  border-radius: 10px;
+}
+
+h2{
+font-size: 25px;
 }
 
 .start-info {
   display: flex;
+  position: relative;
   flex-flow: column;
   justify-content: center;
   align-content: center;
   width: 20vw;
   height: auto;
-  border: black solid 5px;
-  border-radius: 7px;
-  margin-top: 10vh;
   margin-left: 10vw;
-  padding: 3vh 3vw;
   gap: 10px;
+  color: goldenrod;
 }
 
 .packlista {
