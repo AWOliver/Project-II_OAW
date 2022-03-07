@@ -48,15 +48,11 @@
 }
 
 .start-img {
-  margin-left: 20vw;
+  margin-left: 10vw;
   height: 40vh;
   width: 40vw;
   border: solid 3px goldenrod;
   border-radius: 10px;
-}
-
-h2{
-font-size: 25px;
 }
 
 .start-info {
@@ -67,7 +63,7 @@ font-size: 25px;
   align-content: center;
   width: 20vw;
   height: auto;
-  margin-left: 10vw;
+  margin-left: 20vw;
   gap: 10px;
 }
 
@@ -78,15 +74,19 @@ font-size: 25px;
 
 .start-info h2{
   color: goldenrod;
+  font-size: 25px;
 }
 
 
 .packlista {
-  margin-top: 10vh;
-  margin-left: 5vw;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  background-color:steelblue;
 }
 
-.lista {
+.list-info {
   width: 40vw;
   display: flex;
   flex-direction: column;
@@ -96,4 +96,13 @@ font-size: 25px;
   border: firebrick 5px solid;
   border-radius: 7px;
   padding: 3vh 3vw;
+  margin-top: 10vh;
+  margin-left: 5vw;
+}
+
+.list {
+  margin-top: 10vh;
+  margin-left: 10vw;
+  padding: 3vh 3vw;
+  border: silver solid 3px;
 }
