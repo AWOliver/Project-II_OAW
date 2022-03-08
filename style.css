@@ -17,7 +17,7 @@
   justify-content: center;
 }
 
-.header-text{
+.header-text {
   color: #000;
   display: flex;
   flex-direction: row;
@@ -36,73 +36,87 @@
   width: 30vw;
   background-color: black;
   justify-self: flex-end;
-} 
+}
 
 .intro {
-  height: 50vh;
   display: flex;
   flex-direction: row;
   background-color: firebrick;
-  align-items: center;
   border-bottom: #000 solid 2px;
 }
 
 .start-img {
-  margin-left: 10vw;
+  margin: 5vh 5vw 5vh;
   height: 40vh;
-  width: 40vw;
   border: solid 3px goldenrod;
   border-radius: 10px;
 }
 
 .start-info {
+  background-color: white;
+  padding: 3vh 3vw;
+  border: solid 5px goldenrod;
   display: flex;
-  position: relative;
   flex-flow: column;
   justify-content: center;
   align-content: center;
-  width: 20vw;
+  width: 30vw;
   height: auto;
-  margin-left: 20vw;
+  margin: 5vh 0 5vh 20vw;
   gap: 10px;
+  text-align: center;
 }
 
-.start-info p{
-  color: goldenrod;
+.start-info p {
+  align-self: center;
+  color: black;
   font-size: 18px;
 }
 
-.start-info h2{
-  color: goldenrod;
+.start-info h2 {
+  align-self: center;
+  color: black;
   font-size: 25px;
 }
 
-
 .packlista {
-  width: 100vw;
-  height: 50vh;
   display: flex;
   flex-direction: row;
-  background-color:steelblue;
+  background-color: steelblue;
 }
 
 .list-info {
   width: 40vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 3vh;
-  border: firebrick 5px solid;
+  border: black 3px solid;
   border-radius: 7px;
-  padding: 3vh 3vw;
-  margin-top: 10vh;
-  margin-left: 5vw;
+  padding: 5vh 2vw;
+  margin: 5vh 5vw 5vh;
+  background-color: white;
+}
+
+.list-info p {
+  color: black;
+  font-size: 18px;
+}
+
+.list-info li {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 3vw;
+}
+
+.list-info ul {
+  justify-self: flex-start;
 }
 
 .list {
-  margin-top: 10vh;
-  margin-left: 10vw;
+  margin: 5vh 10vw 5vh;
   padding: 3vh 3vw;
   border: silver solid 3px;
+}
+
+footer {
+  height: 50vh;
 }
