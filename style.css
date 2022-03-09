@@ -60,9 +60,9 @@
   flex-flow: column;
   justify-content: center;
   align-content: center;
-  width: 30vw;
+  width: 25vw;
   height: auto;
-  margin: 5vh 0 5vh 20vw;
+  margin: 5vh 0 5vh 25vw;
   gap: 10px;
   text-align: center;
 }
@@ -86,6 +86,7 @@
 }
 
 .list-info {
+  width: 30vw;
   display: flex;
   flex-direction: column;
   border: black 3px solid;
@@ -113,9 +114,34 @@
 .list {
   margin: 5vh 0vw 5vh 5vw;
   padding: 3vh 3vw;
-  border: silver solid 3px;
+  border: sienna solid 3px;
+  background-color: bisque;
 }
 
-footer {
-  height: 50vh;
+.list ul{
+  margin-top: 3vh;
+}
+
+.list input{
+  text-decoration: none;
+  margin-top: 5vh;
+  border: solid sienna 3px;
+}
+
+.list input:focus{
+  border: solid sienna 3px;
+  background-color: yellow;
+}
+
+
+.list button{
+  width: 40px;
+  height: 40px;
+  background-color: sienna;
+  border-radius: 30px;
+  color: white;
+}
+
+.list ul li:hover{
+  text-decoration: line-through 3px;
 }
