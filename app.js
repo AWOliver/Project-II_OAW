@@ -2,11 +2,25 @@ let addList = document.querySelector(".listMain");
 let listBtn = document.querySelector(".listBtn");
 let listInput = document.querySelector(".listTxt");
 
-function addItem() {
-  let newLi = document.createElement("li");
-  newLi.innerText = listInput.value;
+let items = [];
 
-  addList.appendChild(newLi);
+listBtn.addEventListener("click", () => {
+  addItem(listInput.value);
+});
+
+function addItem(text) {
+  items.push(text);
+  updateList();
+  listInput.value = "";
 }
 
-listBtn.addEventListener("click", addItem);
+function updateList() {
+  addList.innerHTML = "";
+  items.forEach((item) => {
+    let newLi = document.createElement("li");
+    newLi.innerHTML = item;
+    if (newLi !== null) {
+      addList.append(newLi);
+    }
+  });
+}
