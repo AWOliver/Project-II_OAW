@@ -1,12 +1,14 @@
-let addList = document.querySelector('.list ul li');
-let pressListBtn = document.querySelector('.listBtn');
-let inputList = document.querySelector('.listTxt')
+let addList = document.querySelector('.listMain');
+let listBtn = document.querySelector('.listBtn');
+let listInput = document.querySelector('.listTxt');
 
-pressListBtn.addEventListener('click', function(){
-    const createList = document.createElement('LI');
-    const listCont = document.createTextNode(inputList.value);
+listBtn.addEventListener('click', addItem);
 
-    createList.appendChild(listCont);
+function addItem(event) {
+    event.preventDefault();
 
-    addList.appendChild(createList);
-});
+    let newLi = document.createElement('LI');
+    newLi.innerText = listInput.value;
+
+    addList.appendChild(newLi);
+ }

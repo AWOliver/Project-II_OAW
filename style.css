@@ -128,12 +128,6 @@
   border: solid sienna 3px;
 }
 
-.list input:focus{
-  border: solid sienna 3px;
-  background-color: yellow;
-}
-
-
 .list button{
   width: 40px;
   height: 40px;
@@ -142,6 +136,11 @@
   color: white;
 }
 
+.list button:hover{
+  cursor: grab;
+}
+
 .list ul li:hover{
   text-decoration: line-through 3px;
+  cursor: grab;
 }
