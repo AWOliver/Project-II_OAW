@@ -19,8 +19,6 @@ function updateList() {
   items.forEach((item) => {
     let newLi = document.createElement("li");
     newLi.innerHTML = item;
-    if (newLi !== null) {
-      addList.append(newLi);
-    }
+    addList.append(newLi);
   });
 }
