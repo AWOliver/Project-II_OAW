@@ -22,3 +22,13 @@ function updateList() {
     addList.append(newLi);
   });
 }
+
+var removeItem = document.getElementsByClassName("items");
+var i;
+
+for (i = 0; i < items.length; i++) {
+  items[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
