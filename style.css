@@ -144,3 +144,47 @@
   text-decoration: line-through 3px;
   cursor: grab;
 }
+
+/*Packlista*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  margin: 20vh 15vw 10vh 20vw;
+  width: 40vw;
+  border: silver solid 5px;
+  padding: 5vh 10vw;
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.main ol {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.main ol li {
+  font-size: 20px;
+}
+
+.main p {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}

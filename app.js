@@ -11,16 +11,24 @@ addBtn.addEventListener("click", (e) => {
   let listTxt = document.createElement("p");
   listTxt.classList.add("listTxt");
   listTxt.innerHTML = listInput.value;
-  listDiv.appendChild(listTxt);
 
   let removeBtn = document.createElement("button");
-  removeBtn.classList.add("listBtn");
+  removeBtn.classList.add("itemBtn");
+  
+  listDiv.appendChild(listTxt);
   listDiv.appendChild(removeBtn);
-
   addList.appendChild(listDiv);
   listInput.value = "";
-}
-
-removeBtn.addEventListener('click', () => {
-
 });
+
+addList.addEventListener('click', (e) => {
+
+  let removeTarget = e.target;
+  if(removeTarget.classList[0] = 'itemBtn') {
+    let finalRemove = removeTarget.parentElement;
+    console.log(finalRemove);
+    finalRemove.remove();
+  }
+});
+
+//Fixa remove av allt
