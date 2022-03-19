@@ -15,6 +15,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: white;
 }
 
 .header-text {
@@ -162,10 +163,15 @@
   display: flex;
   flex-direction: column;
   gap: 10vh;
-  margin: 20vh 15vw 10vh 20vw;
+  margin: 15vh 15vw 10vh 20vw;
   width: 40vw;
-  border: silver solid 5px;
+  border: silver groove 8px;
   padding: 5vh 10vw;
+  background-color: white;
+}
+
+.background {
+  background-color: steelblue;
 }
 
 .main h1 {

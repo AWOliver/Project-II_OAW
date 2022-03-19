@@ -31,4 +31,4 @@ addList.addEventListener('click', (e) => {
   }
 });
 
-//Fixa remove av allt
+
