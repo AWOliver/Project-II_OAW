@@ -14,9 +14,10 @@ addBtn.addEventListener("click", (e) => {
 
   let removeBtn = document.createElement("button");
   removeBtn.classList.add("itemBtn");
+  removeBtn.innerHTML = 'Ta Bort';
   
-  listDiv.appendChild(listTxt);
   listDiv.appendChild(removeBtn);
+  listDiv.appendChild(listTxt);
   addList.appendChild(listDiv);
   listInput.value = "";
 });
